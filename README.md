@@ -17,12 +17,14 @@ Za zagon aplikacije lokalno sledite tem korakom:
 
 1. Klonirajte repozitorij:
 
-   
+   ```bash
    git clone <repository-url>
    cd todo-list-app
+   ```
 2. Namestite odvisnosti:
 
    npm install
+
    npm install carbon-components carbon-components-react
 
 3. Zaženite strežnik:
