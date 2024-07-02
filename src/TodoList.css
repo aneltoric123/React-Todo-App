@@ -1,0 +1,94 @@
+/* TodoList.css */
+.todo-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #todo-input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    background-color: #0072c3;
+    color: white;
+  }
+  
+  .add-button:hover {
+    background-color: #005a9c;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .bx--checkbox-label {
+    cursor: pointer;
+  }
+
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .edit-button, .delete-button, .save-button {
+    margin-left: 10px;
+  }
+  
+  .edit-button {
+    background-color: #fdd835;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #fbc02d;
+cursor: pointer; 
+}
+
+  
+  .save-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #388e3c;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #e53935;
+    color: white;
+    
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+    cursor: pointer;
+  }
+
+  
+  input[type='text'] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
