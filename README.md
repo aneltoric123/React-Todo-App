@@ -22,14 +22,15 @@ Za zagon aplikacije lokalno sledite tem korakom:
    cd todo-list-app
    ```
 2. Namestite odvisnosti:
-
+```bash
    npm install
-
    npm install carbon-components carbon-components-react
+   ```
 
 3. Zaženite strežnik:
-
+```bash
   npm start
+  ```
 
 4. Odpri svoj brskalnik in obišči http://localhost:3000, da si ogledaš aplikacijo.
 
