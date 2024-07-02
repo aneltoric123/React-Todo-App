@@ -4,18 +4,23 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 50px auto;
   }
   
   .todo-input-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
   }
   
   #todo-input {
     flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  #due-date {
     margin-right: 10px;
   }
   
@@ -26,6 +31,22 @@
   
   .add-button:hover {
     background-color: #005a9c;
+    cursor: pointer;
+  }
+  
+  .todo-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .filter-button, .clear-button {
+    background-color: #607d8b;
+    color: white;
+  }
+  
+  .filter-button:hover, .clear-button:hover {
+    background-color: #455a64;
     cursor: pointer;
   }
   
@@ -41,10 +62,6 @@
     padding: 10px;
     border-bottom: 1px solid #ddd;
   }
-  .bx--checkbox-label {
-    cursor: pointer;
-  }
-
   
   .todo-item:last-child {
     border-bottom: none;
@@ -61,9 +78,8 @@
   
   .edit-button:hover {
     background-color: #fbc02d;
-cursor: pointer; 
-}
-
+    cursor: pointer;
+  }
   
   .save-button {
     background-color: #4caf50;
@@ -78,17 +94,16 @@ cursor: pointer;
   .delete-button {
     background-color: #e53935;
     color: white;
-    
   }
   
   .delete-button:hover {
     background-color: #d32f2f;
     cursor: pointer;
   }
-
   
-  input[type='text'] {
-    flex-grow: 1;
-    margin-right: 10px;
+  .due-date {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #888;
   }
   
