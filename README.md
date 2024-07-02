@@ -41,7 +41,7 @@ Za zagon aplikacije lokalno sledite tem korakom:
 
 
 
-# Prilagodite poti <repository-url> v ukazih za kloniranje in namestitev glede na dejansko pot do vašega repozitorija. Prav tako v datoteko dodajte sliko (todo-list-screenshot.png) svoje aplikacije, da prikažete, kako izgleda v praksi.
+# Prilagodite poti <repository-url> v ukazih za kloniranje in namestitev glede na dejansko pot do vašega repozitorija. 
 Ta datoteka README.md vam bo pomagala pri razumevanju namestitve, uporabe in funkcionalnosti vaše aplikacije za seznam opravil
 
 
